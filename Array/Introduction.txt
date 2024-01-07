@@ -1,0 +1,52 @@
+Array in Java is a group of like-typed variables referred to by a common name. Arrays in Java work differently than they do in C/C++. Following are some important points about Java arrays. 
+
+In Java, all arrays are dynamically allocated. (discussed below)
+Arrays may be stored in contiguous memory [consecutive memory locations].
+Since arrays are objects in Java, we can find their length using the object property length. This is different from C/C++, where we find length using sizeof.
+A Java array variable can also be declared like other variables with [] after the data type.
+The variables in the array are ordered, and each has an index beginning with 0.
+Java array can also be used as a static field, a local variable, or a method parameter.
+The size of an array must be specified by int or short value and not long.
+The direct superclass of an array type is Object.
+Every array type implements the interfaces Cloneable and java.io.Serializable. 
+This storage of arrays helps us randomly access the elements of an array [Support Random Access].
+The size of the array cannot be altered(once initialized).  However, an array reference can be made to point to another array.
+An array can contain primitives (int, char, etc.) and object (or non-primitive) references of a class depending on the definition of the array. In the case of primitive data types, the actual values might be stored in contiguous memory locations(JVM does not guarantee this behavior). In the case of class objects, the actual objects are stored in a heap segment. 
+
+Creating, initializing, and accessing an Array
+One-Dimensional Arrays: 
+The general form of a one-dimensional array declaration is 
+
+type var-name[];
+OR
+type[] var-name;
+
+An array declaration has two components: the type and the name.
+type declares the element type of the array. The element type determines the data type of each element that comprises the array. 
+Like an array of integers, we can also create an array of other primitive data types like char, float, double, etc.,
+or user-defined data types (objects of a class). Thus, the element type for the array determines what type of data the array will hold. 
+
+Although the first declaration establishes that int Array is an array variable, 
+no actual array exists. It merely tells the compiler that this variable (int Array) will hold an array of the integer type. To link int Array with an actual, 
+physical array of integers, you must allocate one using new and assign it to int Array. 
+
+Instantiating an Array in Java
+When an array is declared, only a reference of an array is created. To create or give memory to the array, you create an array like this: The general form of new as it applies to one-dimensional arrays appears as follows: 
+
+var-name = new type [size];
+
+ Types of Array operations:
+Traversal: Traverse through the elements of an array.
+Insertion: Inserting a new element in an array.
+Deletion: Deleting element from the array.
+Searching:  Search for an element in the array.
+Sorting: Maintaining the order of elements in the array.
+
+Multidimensional Arrays
+Multidimensional arrays are arrays of arrays with each element of the array holding the reference of other arrays. These are also known as Jagged Arrays. A multidimensional array is created by appending one set of square brackets ([]) per dimension. 
+
+Syntax :
+
+datatype [][] arrayrefvariable;
+or 
+datatype arrayrefvariable[][];

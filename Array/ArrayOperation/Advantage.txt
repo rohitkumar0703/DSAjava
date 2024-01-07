@@ -1,0 +1,11 @@
+_______=====Advantage of Array=====______________________
+
+Allows contiguous memory location
+Access Time T(n) = O(1);
+Can store data of same type using single variable,
+
+_______=====Disadvantage of Array=====______________________
+Insertion Time Complexity T(n) = O(n);
+Deletion Time complexity T(n) = O(n);
+Size of array should be known in advance
+Wastage of memory if data is not stored as per the size of array declared.

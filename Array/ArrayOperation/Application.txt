@@ -1,0 +1,7 @@
+_______=====Application of Array=====______________________
+
+> Searching 
+> Sorting
+> Matrix Operation'
+> Image Preprocessing
+> Can Implement Stack, Queue, Tree, Graph

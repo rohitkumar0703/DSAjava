@@ -1,0 +1,7 @@
+Application of Stack ----Operation
+
+<Infix>----<Prefix expression
+      -----<Postfix expression
+      Infix = a+b where , ab called Operands and + called Operator
+           Prefix = +ab known as Polish expression
+           Postfix = ab+ known as Reverse Polish notation expression
